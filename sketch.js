@@ -13,11 +13,11 @@ var umbrella;
 var thunder, thunderCreatedFrame = 0;
 
 function preload(){
-  man_image = loadImage("man.jpeg");
-  thunder1 = loadImage("thunder1.png");
-  thunder2 = loadImage("thunder2.png");
-  thunder3 = loadImage("thunder3.png");
-  thunder4 = loadImage("thunder4.png")
+  man_image = loadImage("walking_1.png");
+  thunder1 = loadImage("1.png");
+  thunder2 = loadImage("2.png");
+  thunder3 = loadImage("3.png");
+  thunder4 = loadImage("4.png")
 }
 
 function setup(){
@@ -72,5 +72,6 @@ function draw(){
  
   drawSprites();
 }
+
 
 
